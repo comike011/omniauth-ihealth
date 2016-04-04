@@ -77,6 +77,10 @@ module OmniAuth
         }
       end
 
+      def query_string
+        ''
+      end
+
       protected
       CM_TO_IN_CONVERSION = 0.393701
       FT_TO_IN_CONVERSION = 12
